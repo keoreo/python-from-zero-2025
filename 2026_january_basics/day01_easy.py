@@ -1,9 +1,6 @@
 # === Этап 1. Самый простой уровень ===
 
 # Целые числа
-from operator import is_
-
-
 vlan_id = 10
 mask = 24
 
@@ -33,3 +30,4 @@ print("full_name: ", full_name)
 
 status = is_up and not is_trunk
 print("Доступный порт: ", status)
+
