@@ -34,3 +34,9 @@ c = 100.0
 
 print("a == b ->", a == b)
 print("a is b ->", a is b)
+print("a == c ->" a == c)
+print("a is c ->" a is c)
+
+# Практические примеры
+interface_name = f"GigabitEthernet0/0/{vlan}"
+print(f"Сформированное имя интерфейся: {interface_name}")
